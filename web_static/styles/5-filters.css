@@ -24,3 +24,32 @@ button{
 button:hover{
     opacity: 0.9;
 }
+.locations{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 45px;
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+}
+.amenities{
+    display: inline-block;
+	vertical-align: middle;
+    margin-left: 45px;
+    height: 100%;
+    width: 25%;
+}
+.locations h3,
+.amenities h3 {
+  font-weight: 600;
+  margin-top: 5px; 
+  color: black;
+}
+
+.locations h4,
+.amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px; 
+  color: black;
+}
